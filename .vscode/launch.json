@@ -1,0 +1,350 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch divvv",
+            "request": "launch",
+            "mainClass": "divvv",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch infinite",
+            "request": "launch",
+            "mainClass": "infinite",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch intermul",
+            "request": "launch",
+            "mainClass": "intermul",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch cdchf",
+            "request": "launch",
+            "mainClass": "cdchf",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch integer",
+            "request": "launch",
+            "mainClass": "integer",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch a1",
+            "request": "launch",
+            "mainClass": "a1",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch chararraysort",
+            "request": "launch",
+            "mainClass": "chararraysort",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryToDecimalExample1",
+            "request": "launch",
+            "mainClass": "BinaryToDecimalExample1",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch dectobinfunc",
+            "request": "launch",
+            "mainClass": "dectobinfunc",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch experiment",
+            "request": "launch",
+            "mainClass": "experiment",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch doobleloopcontinue",
+            "request": "launch",
+            "mainClass": "doobleloopcontinue",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch euclideangcd",
+            "request": "launch",
+            "mainClass": "euclideangcd",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BITSWAPS",
+            "request": "launch",
+            "mainClass": "BITSWAPS",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bitwiseoperation",
+            "request": "launch",
+            "mainClass": "bitwiseoperation",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quicksort",
+            "request": "launch",
+            "mainClass": "Quicksort",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch COINS",
+            "request": "launch",
+            "mainClass": "COINS",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch lcm",
+            "request": "launch",
+            "mainClass": "lcm",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch mulstppalin",
+            "request": "launch",
+            "mainClass": "mulstppalin",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch kava",
+            "request": "launch",
+            "mainClass": "kava",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch fhasgfgd",
+            "request": "launch",
+            "mainClass": "fhasgfgd",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch pralpermut",
+            "request": "launch",
+            "mainClass": "pralpermut",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch REAMD",
+            "request": "launch",
+            "mainClass": "REAMD",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch c",
+            "request": "launch",
+            "mainClass": "c",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch atm",
+            "request": "launch",
+            "mainClass": "atm",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Codechef",
+            "request": "launch",
+            "mainClass": "Codechef",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch LL",
+            "request": "launch",
+            "mainClass": "LL",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch LL1",
+            "request": "launch",
+            "mainClass": "LL1",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ab",
+            "request": "launch",
+            "mainClass": "ab",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubble",
+            "request": "launch",
+            "mainClass": "bubble",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch charinput",
+            "request": "launch",
+            "mainClass": "charinput",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch compare",
+            "request": "launch",
+            "mainClass": "compare",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch digitwomode",
+            "request": "launch",
+            "mainClass": "digitwomode",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch hcfwithoutmode",
+            "request": "launch",
+            "mainClass": "hcfwithoutmode",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch lcmhcf",
+            "request": "launch",
+            "mainClass": "lcmhcf",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch linkedlisttest",
+            "request": "launch",
+            "mainClass": "linkedlisttest",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch methgen",
+            "request": "launch",
+            "mainClass": "methgen",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch objexp",
+            "request": "launch",
+            "mainClass": "objexp",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern",
+            "request": "launch",
+            "mainClass": "pattern",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch q12",
+            "request": "launch",
+            "mainClass": "q12",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch seclar",
+            "request": "launch",
+            "mainClass": "seclar",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortusingarrays",
+            "request": "launch",
+            "mainClass": "sortusingarrays",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch spiral",
+            "request": "launch",
+            "mainClass": "spiral",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch stsort",
+            "request": "launch",
+            "mainClass": "stsort",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sudukosolve",
+            "request": "launch",
+            "mainClass": "sudukosolve",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch swap",
+            "request": "launch",
+            "mainClass": "swap",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch visapro",
+            "request": "launch",
+            "mainClass": "visapro",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch z",
+            "request": "launch",
+            "mainClass": "z",
+            "projectName": "JAVA_a7bfff5c"
+        }
+    ]
+}
