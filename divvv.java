@@ -1,10 +1,10 @@
 import java.util.*;
 
 public class divvv {
-   public int factorial(int a)
+   public long factorial(int a)
 {
-    int c=1;
-    for(int i=a;i<a;i++)
+    long c=1;
+    for(int i=1;i<a;i++)
     {
         c=c*i;
     }
@@ -16,9 +16,9 @@ public class divvv {
         int a,b,n,r=0;
         do
         {
-            System.out.println("input no. to continue ");
+            System.out.println("input no. ");
             a= sc.nextInt();
-            System.out.println(ob.factorial(a));
+            System.out.println( (long)ob.factorial(a));
             while(a>0)
             {
                 n=a%10;

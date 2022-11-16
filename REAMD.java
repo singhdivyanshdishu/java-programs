@@ -21,6 +21,7 @@ public class REAMD
 		    m=0;
 		    n=sc.nextInt();
 		    int ar[]=new int[n];
+			System.out.println("input array");
 		    for(int i=0;i<n;i++)
 		    {
 		        ar[i]=sc.nextInt();

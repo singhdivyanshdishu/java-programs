@@ -12,7 +12,7 @@ public class a1 {
         int b = sc.nextInt();
         int c =a + b;
         System.out.println(c);
-        int x= 
+        int x= 2;
 
         // for applying copilot suggestion use tab key to indent the code
     }
