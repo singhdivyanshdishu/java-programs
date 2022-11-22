@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch strclss",
+            "request": "launch",
+            "mainClass": "strclss",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
             "name": "Launch mergesor",
             "request": "launch",
             "mainClass": "mergesor",

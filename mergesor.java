@@ -45,7 +45,7 @@ public class mergesor {
 
     }
     public static void main(String[] args) {
-        int arr []={4,9,7,4,98,23,98,1,3,2};
+        int arr []={4,9,7,4,98,23,98,01,3,2};
         int l=arr.length;
         divide(arr,0,l-1);
         for (int i = 0; i < arr.length; i++) {
