@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch encoden",
+            "request": "launch",
+            "mainClass": "encoden",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch patterns",
+            "request": "launch",
+            "mainClass": "patterns",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch priorityque",
+            "request": "launch",
+            "mainClass": "priorityque",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseque",
+            "request": "launch",
+            "mainClass": "reverseque",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueB",
+            "request": "launch",
+            "mainClass": "QueueB",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch que2stacks",
+            "request": "launch",
+            "mainClass": "que2stacks",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "LongestPalindromicSubstring",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
             "name": "Launch strclss",
             "request": "launch",
             "mainClass": "strclss",
