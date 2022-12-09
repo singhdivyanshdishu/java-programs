@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryTreesYT",
+            "request": "launch",
+            "mainClass": "BinaryTreesYT",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch matshift",
+            "request": "launch",
+            "mainClass": "matshift",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
             "name": "Launch encoden",
             "request": "launch",
             "mainClass": "encoden",
