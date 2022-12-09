@@ -138,30 +138,30 @@ public static void levelorder(Node root)
        return Math.max(slfdia,Math.max(ld,rd));
     }
     //approach 2 O(n)
-    static class info
-    {
-        int diam;
-        int ht;
+    // static class info
+    // {
+    //     int diam;
+    //     int ht;
 
-        public info(int dia,int ht)
-        {
-            this.diam=dia;
-            this.ht=ht;
-        }
-    }
-    public static info diameter2(Node root)
-    {
-        if(root == null)
-        {
-            return new info(0,0);
-        }
-        info li=diameter2(root.left);
-        info ri=diameter2(root.right);
+    //     public info(int dia,int ht)
+    //     {
+    //         this.diam=dia;
+    //         this.ht=ht;
+    //     }
+    // }
+    // public static info diameter2(Node root)
+    // {
+    //     if(root == null)
+    //     {
+    //         return new info(0,0);
+    //     }
+    //     info li=diameter2(root.left);
+    //     info ri=diameter2(root.right);
 
-        int diam= Math.max(Math.max(li.diam,ri.diam),li.ht+ri.ht+1);
-        int ht=Math.max(li.ht,ri.ht)+1;
-        return new info(diam, ht);
-    }
+    //     int diam= Math.max(Math.max(li.diam,ri.diam),li.ht+ri.ht+1);
+    //     int ht=Math.max(li.ht,ri.ht)+1;
+    //     return new info(diam, ht);
+    // }
     public static boolean isIdentical(Node root,Node subroot)
     {
         if(root==null&&subroot==null)
@@ -200,6 +200,58 @@ public static void levelorder(Node root)
         boolean ra= issubtree(root.right, subroot);
         return la||ra;
     }
+    static class Info
+    {
+        Node node;
+        int hd;
+        public Info(Node node, int hd)
+        {
+            this.node=node;
+            this.hd=hd;
+        }
+
+    }
+    public static void topview(Node root)
+    {
+        Queue<Info> q=new LinkedList<>();
+        HashMap<Integer,Node> h=new HashMap<>();
+        int min=0,max=0;
+        q.add(new Info(root,0));
+        q.add(null);
+        while(!q.isEmpty())
+        {
+            Info curr=q.remove();
+            if(curr==null)
+            {
+                if(q.isEmpty())
+                {
+                    break;
+                }
+                else{
+                    q.add(null);
+                }
+            }
+            else{
+                if(!h.containsKey(curr.hd))
+            {
+                h.put(curr.hd,curr.node);
+            }
+            if(curr.node.left!=null)
+            {
+                q.add(new Info(curr.node.left,curr.hd-1));
+                min=Math.min(min,curr.hd-1);
+            }
+            if(curr.node.right!=null)
+            {
+                q.add(new Info(curr.node.right, curr.hd+1));
+                max=Math.max(max,curr.hd+1);
+            }
+            }
+        }
+        for (int i = min; i <= max; i++) {
+            System.out.print(h.get(i).data+" ");
+        }
+    }
    /*  1
       / \
      2   3
@@ -219,7 +271,8 @@ public static void levelorder(Node root)
     System.out.println(count(root));
     System.out.println(sum(root));
     System.out.println(diameter(root));
-    System.out.println(diameter2(root).diam);
+    //System.out.println(diameter2(root).diam);
+    topview(root);
    // System.out.println(root.data);
 
 }
