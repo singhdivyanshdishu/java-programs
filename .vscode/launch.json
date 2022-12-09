@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Heap",
+            "request": "launch",
+            "mainClass": "Heap",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch heapss",
+            "request": "launch",
+            "mainClass": "heapss",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch priorqueue",
+            "request": "launch",
+            "mainClass": "priorqueue",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch linbintree",
+            "request": "launch",
+            "mainClass": "linbintree",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
             "name": "Launch BinaryTreesYT",
             "request": "launch",
             "mainClass": "BinaryTreesYT",
