@@ -1,44 +1,54 @@
+import java.util.*;
 class spiral
 {
 public static void main(String args[])
 {
-    int a[][]=new int[4][4];
-    int r1=0,r2=3,c1=0,c2=3,i,k=1;
-    for(i=c1;i<=c2;i++)
-    {
-        a[r1][i]=k;
-        k++;
+    Scanner sc=new Scanner(System.in);
+    
+    int startRows=0,endRows,startCol=0,endCol,counter=1;
+    System.out.println("Input");
+    int endr=sc.nextInt();
+    int endc=sc.nextInt();
+    int mat[][]=new int[endr][endc];
+    endRows=endr-1;
+    endCol=endc-1;
+    while (startRows <= endRows && startCol <= endCol){
+    for (int i = startCol; i <= endCol; i++){
+        mat[startRows][i] = counter;
+        counter++;
     }
-    r1++;
-    for(i=r1;i<=r2;i++)
-    {
-        a[i][c2]=k;
-        k++;
-        
+    startRows++;
+
+    for (int j = startRows; j <= endRows; j++){
+        mat[j][endCol] = counter;
+        counter++;
     }
-    c2--;
-    for(i=c2;i>=c1;i--)
-    {
-        a[r2][i]=k;
-        k++;
+    endCol--;
+
+    if (startRows > endRows) {
+        break;
     }
-    r2--;
-    for(i=r2;i>=r1;i--)
-    {
-        a[i][c1]=k;
-        k++;
+    for (int l = endCol; l >= startCol; l--){
+        mat[endRows][l] = counter;
+        counter++;
     }
-    c1++;
-    for(i=c1;i<=c2;i++)
-    {
-       a[r2][i]=k;
-         k++;
+    endRows--;
+
+    if (startCol > endCol) {
+        break;
     }
-    for(i=0;i<4;i++) 
+    for(int y = endRows; y >= startRows; y--){
+        mat[y][startCol] = counter;
+        counter++;
+    }
+    startCol++;
+}
+
+    for(int i=0;i<endr;i++) 
     {
-        for(int j=0;j<4;j++)
+        for(int j=0;j<endc;j++)
         {
-           System.out.print(" " +a[i][j]);
+           System.out.print(" \t" +mat[i][j]);
         }
         System.out.println();
     }

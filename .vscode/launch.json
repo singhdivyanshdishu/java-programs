@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch hashmap1",
+            "request": "launch",
+            "mainClass": "hashmap1",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch graphbfsdfs",
+            "request": "launch",
+            "mainClass": "graphbfsdfs",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch graphbfs",
+            "request": "launch",
+            "mainClass": "graphbfs",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch graph1",
+            "request": "launch",
+            "mainClass": "graph1",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ht",
+            "request": "launch",
+            "mainClass": "Ht",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch heapsort",
+            "request": "launch",
+            "mainClass": "heapsort",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
             "name": "Launch Heap",
             "request": "launch",
             "mainClass": "Heap",
