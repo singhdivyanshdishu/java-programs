@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch dishu",
+            "request": "launch",
+            "mainClass": "dishu",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
             "name": "Launch LinearSearch",
             "request": "launch",
             "mainClass": "LinearSearch",
