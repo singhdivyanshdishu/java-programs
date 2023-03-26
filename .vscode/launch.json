@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Knapsack",
+            "request": "launch",
+            "mainClass": "Knapsack",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST",
+            "request": "launch",
+            "mainClass": "BST",
+            "projectName": "JAVA_a7bfff5c"
+        },
+        {
+            "type": "java",
             "name": "Launch dishu",
             "request": "launch",
             "mainClass": "dishu",
